@@ -7,8 +7,8 @@ from src.utils import load_movies
 movies = load_movies("data/movies.csv")
 
 # Display recommendations based on similarity
-print("Advanced recommendations for 'Toy Story':")
-print(recommend_movies_advanced("Toy Story", movies))
+#print("Advanced recommendations for 'Toy Story':")
+#print(recommend_movies_advanced("Toy Story", movies))
 
 # Search for movie details in the API
 movie_details = search_movie("Inception")
